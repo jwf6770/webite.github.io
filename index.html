@@ -8,9 +8,18 @@
   <link rel="icon" type="image/png" href="favicon.png"/>
 </head>
 <style>
-  div {
-    background-image: url(skygradient.png);
+  body, html {
+    height 100%;
+    margin: 0;
   }
+  . bg {
+    background-image: url(skygradient.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   @font-face {
     font-family: titleFont;
     src: url(AAsianHiro-vmv3L.ttf);
@@ -41,6 +50,7 @@
 }
 </style>
 <body style="background: rgb(144,144,144)">
+  <div class="bg"></div>
   <img src = "treeforwebsite.png" width = "50%" alt = "" class = "center">
   <p class = "leftred">Prepare for greatness!</p>
   <h1 class = "centerred">Mission Statement</h1>
